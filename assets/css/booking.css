@@ -1,0 +1,64 @@
+/* Buchungsformular */
+.booking-section{position:relative;
+overflow:hidden;
+background:var(--paper);
+color:var(--ink);
+min-height:660px}
+.booking-backdrop{position:absolute;
+right:-3vw;
+top:1%;
+font:700 clamp(110px,22vw,310px)/.76 var(--font-display);
+letter-spacing:-.1em;
+color:rgba(0,0,0,.035);
+pointer-events:none}
+.booking-content{position:relative;
+margin:45px 0 0 17%;
+max-width:550px}
+.booking-content h2{font-size:clamp(54px,8vw,100px)}
+.booking-content>p:not(.eyebrow){color:#55534f;
+font-size:14px;
+max-width:380px}
+.booking-form{display:grid;
+grid-template-columns:1fr 1fr;
+gap:9px 16px;
+margin-top:34px}
+.booking-form label{font-size:10px;
+grid-column:1/-1;
+letter-spacing:.1em;
+text-transform:uppercase;
+color:#777;
+margin-top:9px}
+.booking-form input,.booking-form textarea,.booking-form select{grid-column:1/-1;
+width:100%;
+background:transparent;
+border:0;
+border-bottom:1px solid #aaa8a2;
+padding:10px 0;
+color:var(--ink);
+outline:0;
+border-radius:0}
+.booking-form input:focus,.booking-form textarea:focus,.booking-form select:focus{border-color:#111}
+.booking-form input::placeholder,.booking-form textarea::placeholder{color:#777}
+.booking-form select{appearance:none;
+color:#555;
+cursor:pointer}
+.booking-form select option{background:#f3f1ec;
+color:#181818}
+.booking-section .button-light{background:#101010;
+color:#f3f1ec}
+.booking-section .button-light:hover{background:#333}
+.event-fit{display:flex;
+flex-wrap:wrap;
+gap:8px;
+margin-top:24px}
+.event-fit span{border:1px solid #c3c0b8;
+padding:7px 10px;
+font-size:8px;
+letter-spacing:.12em;
+color:#55534f}
+.submit-button{justify-self:start;
+margin-top:13px}
+.form-note{grid-column:1/-1;
+font-size:10px;
+color:#666;
+margin:6px 0 0}

@@ -1,0 +1,79 @@
+/* Kurzinfos, Duo-Einführung und Klangmotiv */
+.section-pad{padding:120px 11vw}
+.quick-facts{display:grid;
+grid-template-columns:repeat(4,1fr);
+background:var(--paper);
+color:var(--ink);
+padding:24px 7vw}
+.quick-facts div{padding:4px 2vw;
+border-right:1px solid #cbc9c3}
+.quick-facts div:last-child{border:0}
+.quick-facts span,.quick-facts strong{display:block}
+.quick-facts span{font-size:8px;
+letter-spacing:.18em;
+color:#777;
+margin-bottom:7px}
+.quick-facts strong{font-size:13px;
+line-height:1.4}
+.section-index{font:500 9px var(--font-display);
+letter-spacing:.2em;
+color:#777;
+text-transform:uppercase}
+.intro{display:grid;
+grid-template-columns:1fr 5fr 2.7fr;
+gap:5vw;
+background:var(--paper);
+color:var(--ink);
+align-items:center}
+.intro .section-index,.band-copy .section-index{align-self:start;
+padding-top:12px}
+.eyebrow{color:#797873}
+.intro h2,.band-copy h2,.social-main h2,.booking-content h2{font-size:clamp(44px,6.4vw,88px);
+line-height:.98;
+margin:18px 0 25px}
+.intro h2 em,.band-copy h2 em,.social-main h2 em,.booking-content h2 em{font-family:var(--font-script);
+font-weight:500;
+font-style:normal;
+letter-spacing:-.035em;
+color:inherit;
+-webkit-text-stroke:0;
+font-size:1.12em}
+.intro-copy>p:not(.eyebrow):not(.small-note),.band-copy>p:not(.eyebrow):not(.small-note){max-width:530px;
+color:#55534f;
+font-size:15px}
+.small-note{font-size:11px;
+color:#8d8b85;
+margin-top:20px}
+.sound-card{background:#181818;
+color:var(--white);
+padding:19px;
+min-height:310px;
+display:flex;
+flex-direction:column;
+position:relative}
+.sound-card-top,.sound-card-bottom{display:flex;
+justify-content:space-between;
+font:500 8px var(--font-display);
+letter-spacing:.14em}
+.sound-art{height:205px;
+display:grid;
+place-items:center;
+position:relative;
+overflow:hidden}
+.sound-ring{position:absolute;
+width:160px;
+height:160px;
+border:1px solid #777;
+border-radius:50%;
+box-shadow:0 0 0 13px #202020,0 0 0 14px #5b5b5b,0 0 0 32px #1b1b1b,0 0 0 33px #4a4a4a}
+.sound-bb{font:600 56px var(--font-display);
+letter-spacing:-.12em;
+z-index:1}
+.sound-line{position:absolute;
+width:140%;
+height:1px;
+background:#777;
+transform:rotate(-34deg)}
+.sound-caption{font-size:10px;
+color:#aaa;
+margin:17px 0 0}

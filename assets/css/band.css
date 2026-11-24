@@ -1,0 +1,33 @@
+/* Band- und Portraitbereich */
+.band-section{background:var(--paper);
+color:var(--ink);
+display:grid;
+grid-template-columns:1fr 1fr;
+min-height:650px}
+.band-image-wrap{min-height:620px;
+position:relative;
+overflow:hidden}
+.band-image-wrap img{width:100%;
+height:100%;
+position:absolute;
+inset:0;
+object-fit:cover;
+object-position:51% center;
+filter:grayscale(1) contrast(1.1)}
+.image-label{position:absolute;
+bottom:24px;
+left:30px;
+padding:8px 11px;
+background:#111;
+color:#eee;
+font-size:8px;
+letter-spacing:.15em}
+.band-copy{padding:90px 8vw 80px 7vw;
+display:flex;
+flex-direction:column;
+align-items:flex-start;
+justify-content:center}
+.band-copy h2{margin-top:26px}
+.dark-link{color:#161616;
+border-color:#888;
+margin-top:15px}

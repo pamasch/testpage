@@ -1,0 +1,30 @@
+/* Globale Variablen, Resets und Grundelemente */
+:root{--black:#101010;
+--ink:#181818;
+--white:#f3f1ec;
+--paper:#e7e5df;
+--muted:#a5a39e;
+--line:rgba(255,255,255,.18);
+--font-display:Impact,Haettenschweiler,"Arial Narrow","Franklin Gothic Condensed","Arial Black",sans-serif;
+--font-script:"Segoe Print","Bradley Hand","Apple Chancery",cursive;
+--font-body:Arial,Helvetica,sans-serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;
+scroll-padding-top:90px}
+body{margin:0;
+background:var(--black);
+color:var(--white);
+font-family:var(--font-body);
+font-size:16px;
+line-height:1.6}
+a{color:inherit;
+text-decoration:none}
+button,input,textarea{font:inherit}
+.skip-link{position:absolute;
+top:-100px;
+left:20px;
+background:var(--white);
+color:var(--black);
+padding:10px 14px;
+z-index:30}
+.skip-link:focus{top:12px}

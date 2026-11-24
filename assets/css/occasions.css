@@ -1,0 +1,35 @@
+/* Anlass-Karten und Abschnittsüberschriften */
+.occasions{background:#151515}
+.occasions-heading{align-items:end}
+.occasions-heading h2{font-size:clamp(48px,7vw,96px);
+line-height:.92;
+max-width:850px}
+.occasion-grid{display:grid;
+grid-template-columns:repeat(4,1fr);
+border:1px solid rgba(255,255,255,.1)}
+.occasion-grid article{padding:24px 21px 27px;
+min-height:190px;
+border-right:1px solid rgba(255,255,255,.1)}
+.occasion-grid article:last-child{border:0}
+.occasion-grid article>span{font-size:9px;
+letter-spacing:.16em;
+color:#85837e}
+.occasion-grid h3{font:600 18px var(--font-display);
+margin:30px 0 12px}
+.occasion-grid p{font-size:12px;
+color:#aaa8a2;
+margin:0}
+.section-heading{display:flex;
+justify-content:space-between;
+align-items:end;
+margin:26px 0 49px}
+.section-heading h2{font-size:clamp(54px,8vw,112px);
+line-height:.9;
+margin:0}
+.section-heading>p{max-width:210px;
+font-size:12px;
+color:#a7a5a1;
+margin:0 0 6px}
+.outline-word{display:block;
+color:transparent;
+-webkit-text-stroke:1px #f3f1ec}

@@ -1,0 +1,147 @@
+/* Tablet- und Mobilansichten */
+@media(max-width:900px){.section-pad{padding:95px 7vw}
+.quick-facts{grid-template-columns:repeat(2,1fr);
+row-gap:16px}
+.quick-facts div:nth-child(2){border:0}
+.quick-facts div:nth-child(3),.quick-facts div:nth-child(4){padding-top:14px;
+border-top:1px solid #cbc9c3}
+.occasion-grid{grid-template-columns:repeat(2,1fr)}
+.occasion-grid article:nth-child(2){border-right:0}
+.occasion-grid article:nth-child(3),.occasion-grid article:nth-child(4){border-top:1px solid rgba(255,255,255,.1)}
+.occasion-grid article:nth-child(4){border-right:0}
+.gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.gallery-item:nth-child(n){grid-column:span 1}
+.gallery-item:first-child{grid-column:span 2}
+.intro{grid-template-columns:1fr 4fr;
+gap:25px}
+.intro .section-index{grid-column:1/-1}
+.sound-card{grid-column:2;
+min-height:280px}
+.sound-art{height:170px}
+.band-copy{padding:70px 6vw}
+.booking-content{margin-left:8%}
+}
+
+@media(max-width:640px){html{scroll-padding-top:70px}
+.site-header{height:68px;
+padding:0 6vw}
+.wordmark{font-size:11px}
+.menu-toggle{display:flex;
+flex-direction:column;
+gap:6px;
+background:none;
+border:0;
+padding:12px;
+z-index:12}
+.menu-toggle span{height:1px;
+width:23px;
+background:#eee;
+transition:transform .2s}
+.menu-toggle[aria-expanded="true"] span:first-child{transform:translateY(3.5px) rotate(45deg)}
+.menu-toggle[aria-expanded="true"] span:last-child{transform:translateY(-3.5px) rotate(-45deg)}
+.site-nav{display:none;
+position:absolute;
+top:68px;
+left:0;
+right:0;
+background:#111;
+padding:22px 6vw 28px;
+flex-direction:column;
+align-items:flex-start;
+gap:20px;
+border-bottom:1px solid #444}
+.site-nav.is-open{display:flex}
+.hero{height:760px;
+min-height:100svh}
+.hero-image{object-position:56% center}
+.hero-image{filter:grayscale(1) contrast(1.16) brightness(.72)}
+.hero-shade{background:linear-gradient(90deg,rgba(0,0,0,.78),rgba(0,0,0,.28)),linear-gradient(0deg,rgba(0,0,0,.65),transparent 45%)}
+.hero-content{margin:65px 6vw 0}
+.hero-subtitle{font-size:17px}
+.hero-copy{font-size:15px;
+line-height:1.55;
+max-width:430px}
+.hero .eyebrow{font-size:8px}
+.hero-side-note{right:5vw;
+font-size:7px}
+.hero-actions{gap:19px}
+.button{padding:13px 14px;
+gap:15px;
+font-size:9px}
+.text-link{font-size:9px}
+.scroll-cue{left:6vw;
+bottom:22px}
+.section-pad{padding:78px 7vw}
+.quick-facts{padding:20px 5vw;
+column-gap:0}
+.quick-facts div{padding-left:4vw;
+padding-right:4vw}
+.quick-facts strong{font-size:12px}
+.occasion-grid{grid-template-columns:1fr}
+.occasion-grid article{min-height:0;
+padding:20px}
+.occasion-grid article:nth-child(n){border-right:0;
+border-top:1px solid rgba(255,255,255,.1)}
+.occasion-grid article:first-child{border-top:0}
+.occasion-grid h3{margin:12px 0 8px}
+.occasion-grid p{font-size:13px}
+.gallery-grid{gap:8px}
+.gallery-item:nth-child(n){grid-column:span 1}
+.gallery-item:first-child{grid-column:span 2}
+.gallery-item img{aspect-ratio:1/1}
+.gallery-item figcaption{left:10px;
+bottom:9px;
+font-size:8px}
+.intro{display:block}
+.intro .section-index{margin-bottom:32px}
+.intro h2,.band-copy h2{font-size:56px}
+.intro-copy>p:not(.eyebrow):not(.small-note),.band-copy>p:not(.eyebrow):not(.small-note){font-size:14px}
+.sound-card{margin-top:35px}
+.section-heading{display:block;
+margin:23px 0 34px}
+.section-heading h2{font-size:64px}
+.occasions-heading h2{font-size:58px}
+.section-heading>p{margin-top:19px}
+.band-section{display:flex;
+flex-direction:column}
+.band-image-wrap{min-height:480px}
+.band-copy{padding:68px 7vw 75px}
+.social-main{display:block;
+margin:23px 0 36px}
+.social-main h2{font-size:75px}
+.social-main>p{margin-top:22px;
+font-size:13px}
+.social-links{display:block}
+.social-link{border-right:0;
+border-bottom:1px solid var(--line);
+margin:0;
+padding:18px 0}
+.social-link:last-child{border-bottom:0}
+.booking-section{min-height:700px}
+.booking-backdrop{right:-18vw;
+top:17%;
+font-size:150px}
+.booking-content{margin:25px 0 0}
+.booking-content h2{font-size:60px}
+.booking-form{display:block}
+.booking-form label{display:block;
+margin-top:19px}
+.booking-form input,.booking-form textarea,.booking-form select{display:block;
+margin-bottom:8px}
+.submit-button{margin-top:18px}
+.site-footer{padding:27px 7vw;
+align-items:flex-start;
+flex-direction:column;
+gap:14px}
+.footer-links{gap:18px;
+flex-wrap:wrap}
+.legal-main{width:calc(100% - 40px);
+padding:54px 0 75px}
+.legal-main h1{font-size:58px}
+.legal-lead{font-size:16px;
+margin-bottom:40px}
+.legal-block h2{font-size:23px}
+.legal-block p,.legal-block address{font-size:13px}
+.legal-note{padding:18px}
+}
+

@@ -1,0 +1,40 @@
+/* Impressum und Datenschutz */
+.legal-page .site-header{position:relative;
+inset:auto;
+background:#101010}
+.legal-main{width:min(900px,100% - 48px);
+margin:0 auto;
+padding:76px 0 110px}
+.legal-main h1{font-size:clamp(54px,9vw,112px);
+white-space:normal;
+line-height:.95;
+margin:22px 0 20px}
+.legal-lead{font-size:18px;
+color:#c7c5c0;
+max-width:700px;
+margin-bottom:56px}
+.legal-block{border-top:1px solid var(--line);
+padding:25px 0 28px;
+max-width:760px}
+.legal-block h2{font-size:26px;
+letter-spacing:-.02em;
+margin:0 0 15px}
+.legal-block p,.legal-block address{font-size:14px;
+color:#c1bfba;
+font-style:normal;
+margin:0 0 12px}
+.legal-block p:last-child{margin-bottom:0}
+.legal-block a{color:#f3f1ec;
+text-decoration:underline;
+text-underline-offset:3px}
+.legal-placeholder{color:#f2d78d;
+font-weight:600}
+.legal-note{border:1px solid rgba(242,215,141,.35);
+padding:22px 24px;
+margin:20px 0}
+.legal-note h2{font-size:20px}
+.legal-updated{font-size:11px;
+color:#85837e;
+margin-top:25px}
+.legal-footer{background:#101010}
+

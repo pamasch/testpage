@@ -1,0 +1,14 @@
+/* Fußzeile */
+.site-footer{padding:33px 5.6vw;
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:20px;
+border-top:1px solid var(--line);
+font-size:10px;
+color:#898783}
+.site-footer p{margin:0}
+.footer-mark{color:#eee}
+.footer-links{display:flex;
+gap:24px}
+.footer-links a:hover{color:#fff}

@@ -1,0 +1,35 @@
+/* Kopfzeile, Wortmarke und Navigation */
+.site-header{height:82px;
+padding:0 5.6vw;
+display:flex;
+align-items:center;
+justify-content:space-between;
+position:absolute;
+inset:0 0 auto;
+z-index:10;
+border-bottom:1px solid rgba(255,255,255,.18)}
+.wordmark{display:flex;
+gap:12px;
+align-items:center;
+font:700 13px var(--font-display);
+letter-spacing:.17em}
+.wordmark-mark{display:grid;
+place-items:center;
+width:31px;
+height:31px;
+border:1px solid rgba(255,255,255,.62);
+border-radius:50%;
+font-size:9px;
+letter-spacing:.04em}
+.site-nav{display:flex;
+align-items:center;
+gap:38px;
+font-size:12px;
+letter-spacing:.08em;
+text-transform:uppercase}
+.site-nav a{transition:opacity .2s}
+.site-nav a:hover,.text-link:hover{opacity:.62}
+.nav-cta{padding:11px 15px;
+border:1px solid rgba(255,255,255,.5)}
+.nav-cta span{margin-left:9px}
+.menu-toggle{display:none}
