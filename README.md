@@ -1,6 +1,6 @@
-# Black Birds – Website
+# Testpage – Band-Website-Demo
 
-Statische Website für das Cover-Duo Black Birds. Die Seite besteht aus HTML, modular aufgeteiltem CSS und Vanilla JavaScript. Es gibt keinen Build-Schritt und keine externen Laufzeit-Abhängigkeiten.
+Statische Website für das Demo-Cover-Duo Testduo. Die Seite besteht aus HTML, modular aufgeteiltem CSS und Vanilla JavaScript. Es gibt keinen Build-Schritt und keine externen Laufzeit-Abhängigkeiten.
 
 ## Lokal ansehen
 
